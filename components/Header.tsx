@@ -1,7 +1,6 @@
 'use client'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo.svg'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 import {
@@ -15,6 +14,7 @@ import {
 } from '@nextui-org/navbar'
 import React from 'react'
 import { Link } from '@nextui-org/react'
+import Image from 'next/image'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
@@ -30,7 +30,7 @@ const Header = () => {
           <Link href="/">
             <div className="flex items-center justify-between">
               <div className="mr-3">
-                <Logo />
+                <Image src="/static/images/logo.webp" alt="logo" width="40" height="40" />
               </div>
               {typeof siteMetadata.headerTitle === 'string' ? (
                 <div className="hidden h-6 text-2xl font-semibold sm:block">

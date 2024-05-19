@@ -8,7 +8,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://nightfae.com',
   siteRepo: 'https://github.com/paracide/nightfae-blog',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/images/logo.webp',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: '',
   email: 'paracidex@gmail.com',
