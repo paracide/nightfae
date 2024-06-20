@@ -20,7 +20,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
   return (
-    <Navbar isBordered onMenuOpenChange={setIsMenuOpen}>
+    <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
@@ -58,9 +58,6 @@ const Header = () => {
       <NavbarContent justify="end">
         <NavbarItem>
           <SearchButton />
-        </NavbarItem>
-        <NavbarItem>
-          <ThemeSwitch />
         </NavbarItem>
       </NavbarContent>
 

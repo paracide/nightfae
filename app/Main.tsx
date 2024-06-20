@@ -12,13 +12,13 @@ export default function Home() {
   const textY = useTransform(scrollYProgress, [0, 1], ['0%', '200%'])
 
   return (
-    <>
+    <div>
       <div ref={ref} className="relative grid h-screen w-full place-items-center overflow-hidden">
         <motion.h1
           style={{ y: textY }}
           className="relative z-10 text-7xl font-bold text-white md:text-9xl"
         >
-          Nightfae
+          Ardenweald
         </motion.h1>
 
         <motion.div
@@ -75,6 +75,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
