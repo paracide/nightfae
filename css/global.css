@@ -34,7 +34,6 @@ input:-webkit-autofill:focus {
   overflow: auto hidden;
 }
 
-nav,
-footer {
+nav {
   background: linear-gradient(to right, #5a9ac4, #2a86bc);
 }
