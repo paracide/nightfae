@@ -2,7 +2,7 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 const { Oswald } = require('next/font/google')
-const { nextui } = require('@nextui-org/react')
+const { heroui } = require("@heroui/react")
 
 /** @type {import("tailwindcss/types").Config } */
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
     './components/**/*.{js,ts,tsx}',
     './layouts/**/*.{js,ts,tsx}',
     './data/**/*.mdx',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
+    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {
@@ -70,5 +70,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [nextui(), require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [heroui(), require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }

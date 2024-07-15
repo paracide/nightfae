@@ -11,9 +11,9 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle,
-} from '@nextui-org/navbar'
+} from "@heroui/navbar"
 import React from 'react'
-import { Link } from '@nextui-org/react'
+import { Link } from "@heroui/react"
 import Image from 'next/image'
 
 const Header = () => {
