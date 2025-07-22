@@ -38,41 +38,32 @@ export default function Home() {
 
       <div className="w-full bg-[#06141D]">
         <div className="mx-auto max-w-lg space-y-4 py-24 text-neutral-300">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae earum nobis quasi
-            repellat. Amet facere nulla dolorum accusantium sit dolores odio excepturi facilis
-            laboriosam officiis dolorem, nobis reprehenderit molestiae.
-          </p>
+          <p>How long could we be a sad song<br />
+            'Til we were too far gone to bring back to life?</p>
+
+          <p>I gave you all my best me's, my endless empathy<br />
+            And all I did was bleed as I tried to be the bravest soldier<br />
+            Fighting in only your army<br />
+            Frontlines, don't you ignore me<br />
+            I'm the best thing at this party<br />
+            (You're losin' me)</p>
+
+          <p>And I wouldn't marry me either<br />
+            A pathological people pleaser<br />
+            Who only wanted you to see her<br />
+            And I'm fadin', thinkin'<br />
+            "Do something, babe, say something" (say something)<br />
+            "Lose something, babe, risk something" (you're losin' me)<br />
+            "Choose something, babe, I got nothing (got nothing)<br />
+            To believe<br />
+            Unless you're choosin' me"</p>
+
+          <p>You're losin' me<br />
+            Stop (stop, stop), you're losin' me<br />
+            Stop (stop, stop), you're losin' me<br />
+            I can't find a pulse<br />
+            My heart won't start anymore</p>
+
         </div>
       </div>
     </div>
